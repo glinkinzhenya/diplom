@@ -8,7 +8,7 @@ export default function Header() {
     return (
         <>
             <Typography
-                variant="h1"
+                variant="h3"
                 component="h2"
                 color='white'
             >
