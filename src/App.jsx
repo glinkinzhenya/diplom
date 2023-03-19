@@ -5,38 +5,39 @@ import Footer from './components/Templates/Footer'
 import NavBar from './components/Templates/Navbar'
 import Trains from './pages/Trainings'
 import './App.css';
+import { padding } from '@mui/system';
 
 const HeaderWrapper = styled(Box)(() => ({
   height: '15vh',
   backgroundColor: 'black',
-  opacity: '0.8',
+  opacity: '0.6',
   borderRadius: '20px',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
 }));
 
-const NavBarWrapper = styled(Box)(({ }) => ({
+const NavBarWrapper = styled(Box)(() => ({
   backgroundColor: 'black',
-  opacity: '0.8',
+  opacity: '0.6',
   borderRadius: '20px',
-  height: '70vh',
+  height: '62.5vh',
 }));
 
-const BodyWrapper = styled(Box)(({ }) => ({
+const BodyWrapper = styled(Box)(() => ({
   backgroundColor: 'black',
   opacity: '1',
   borderRadius: '20px',
-  height: '70vh',
-  overflow: 'auto'
+  height: '62.5vh',
+  overflow: 'auto',
 }));
 
-const FooterWrapper = styled(Box)(({ }) => ({
+const FooterWrapper = styled(Box)(() => ({
   height: '15vh',
   display: 'flex',
   alignItems: 'center',
   backgroundColor: 'black',
-  opacity: '0.8',
+  opacity: '0.6',
   borderRadius: '20px',
 }));
 
@@ -44,7 +45,7 @@ const FooterWrapper = styled(Box)(({ }) => ({
 function App() {
   return (
     <div className='App'>
-      <Grid container spacing={1}>
+      <Grid container spacing={2}>
         <Grid item xs={12} md={12} lg={12}>
           <HeaderWrapper>
             <Header />

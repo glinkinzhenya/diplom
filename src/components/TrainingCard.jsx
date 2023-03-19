@@ -19,18 +19,17 @@ export default function TreiningCard({ trainingName, imageSrc, info }) {
 
     return (
         <>
-            <Card sx={{ width: 300 }}>
+            <Card sx={{ width: 250 }}>
                 <CardMedia
-                    sx={{ height: 240 }}
+                    sx={{ height: 150 }}
                     image={imageSrc}
-                    title='green iguana'
                 />
                 <CardContent>
                     <Typography gutterBottom variant='h5' component='div'>
                         {trainingName}
                     </Typography>
                     <Typography variant='body2' color='text.secondary'>
-                        {info.slice(0, 50)}...
+                        {info.slice(0, 40)}...
                     </Typography>
                 </CardContent>
                 <CardActions>

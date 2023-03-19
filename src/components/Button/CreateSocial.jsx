@@ -9,6 +9,7 @@ const images = [
         url: 'https://play-lh.googleusercontent.com/VRMWkE5p3CkWhJs6nv-9ZsLAs1QOg5ob1_3qg-rckwYW7yp1fMrYZqnEFpk0IoVP4LM',
         title: 'Instagram',
         width: '20%',
+        height: '15vh'
     },
     {
         url: 'https://techcrunch.com/wp-content/uploads/2021/01/facebook-earnings-2021.jpg',
@@ -108,7 +109,7 @@ export default function CreatSocial() {
                                 position: 'relative',
                                 p: 4,
                                 pt: 2,
-                                pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
+                                pb: (theme) => `calc(${theme.spacing(0.5)} + 3px)`,
                             }}
                         >
                             {image.title}
