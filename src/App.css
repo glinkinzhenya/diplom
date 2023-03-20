@@ -1,5 +1,5 @@
 body {
-overflow-y: hidden;
+    overflow-y: hidden;
 }
 
 .App {
@@ -10,3 +10,4 @@ overflow-y: hidden;
     background-repeat: no-repeat;
     padding: 10px;
 }
+

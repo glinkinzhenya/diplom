@@ -1,5 +1,6 @@
 import React from "react";
 import { Typography } from "@mui/material";
+import './NavBar.css';
 
 export default function Header() {
 
@@ -12,9 +13,12 @@ export default function Header() {
                 component="h2"
                 color='white'
             >
-                Gum Team
+                Gym Team
             </Typography>
+            <div >
+                <input type="text" placeholder="Пошук тренування" />
+            </div>
         </>
-      
+
     )
 }

@@ -9,36 +9,40 @@ import { padding } from '@mui/system';
 
 const HeaderWrapper = styled(Box)(() => ({
   height: '15vh',
-  backgroundColor: 'black',
-  opacity: '0.6',
   borderRadius: '20px',
   display: 'flex',
   alignItems: 'center',
-  justifyContent: 'center',
+  justifyContent: 'space-between',
+  padding: '0px 30px',
+  backdropFilter: 'blur(5px)',
+  background: 'rgba(0, 0, 0, 0.404)',
 }));
 
 const NavBarWrapper = styled(Box)(() => ({
-  backgroundColor: 'black',
-  opacity: '0.6',
   borderRadius: '20px',
-  height: '62.5vh',
+  height: '67.6vh',
+  backdropFilter: 'blur(5px)',
+  background: 'rgba(0, 0, 0, 0.404)',
 }));
 
 const BodyWrapper = styled(Box)(() => ({
-  backgroundColor: 'black',
-  opacity: '1',
+  backdropFilter: 'blur(5px)',
+  background: 'rgba(0, 0, 0, 0.404)',
   borderRadius: '20px',
-  height: '62.5vh',
+  height: '67.5vh',
   overflow: 'auto',
 }));
 
 const FooterWrapper = styled(Box)(() => ({
-  height: '15vh',
+  height: '10vh',
   display: 'flex',
   alignItems: 'center',
-  backgroundColor: 'black',
-  opacity: '0.6',
   borderRadius: '20px',
+  justifyContent: 'space-between',
+  padding: '0px 20px',
+
+  backdropFilter: 'blur(5px)',
+  background: 'rgba(0, 0, 0, 0.404)',
 }));
 
 

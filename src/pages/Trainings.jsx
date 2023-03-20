@@ -20,7 +20,6 @@ export default function Trains() {
             try {
                 const { data } = await classes.fetch();
                 setClasses(data);
-                console.log(data);
             } catch (err) {
                 console.log(err);
             }

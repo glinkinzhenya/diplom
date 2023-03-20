@@ -25,7 +25,7 @@ const images = [
 
 const ImageButton = styled(ButtonBase)(({ theme }) => ({
     position: 'relative',
-    height: '15vh',
+    height: '10vh',
     [theme.breakpoints.down('sm')]: {
         width: '100% !important', // Overrides inline-style
         height: 100,
@@ -79,7 +79,7 @@ const ImageBackdrop = styled('span')(({ theme }) => ({
 
 const ImageMarked = styled('span')(({ theme }) => ({
     height: 3,
-    width: 18,
+    width: 25,
     backgroundColor: theme.palette.common.white,
     position: 'absolute',
     bottom: -2,
